@@ -1,6 +1,5 @@
 package jomrest.dto.orden;
 
-
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 

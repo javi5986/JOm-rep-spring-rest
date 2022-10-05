@@ -22,8 +22,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import jomrest.dto.client.socio.SocioDTO;
 import jomrest.dto.orden.OrdenRequestDTO;
-import jomrest.dto.socio.SocioDTO;
 import jomrest.entity.Cupon;
 import jomrest.entity.EstadoOrden;
 import jomrest.entity.Orden;
