@@ -55,7 +55,8 @@ public class OrdenResource {
 	@PreAuthorize("hasAuthority('ADMIN')")
 	@PostMapping(value="/orden",consumes = "application/json", produces = "application/json")
 	public ResponseEntity<?> post(
-			@Valid @RequestBody OrdenRequestDTO ordenRequestDto
+			@Valid 
+			@RequestBody OrdenRequestDTO ordenRequestDto
 			) throws URISyntaxException {
 		
 		//saber si existe el socio
